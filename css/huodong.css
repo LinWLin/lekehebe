@@ -1,10 +1,10 @@
 .l-hd-box { padding: 10px;margin-top: 10px; } 
 
-.hd-box-item { height: 60px; }
+.hd-box-item { height: 60px;margin-bottom:10px; }
 .hd-box-item .hd-img { width: 25%;float: left; }
 .hd-box-item .hd-img img {width: 100%; height: 60px; }
 .hd-box-item .hd-ctx { float: left;width: 75%;height: 100%; position: relative;padding-left: 8px;box-sizing: border-box; }
-.hd-box-item .hd-ctx h4 { font-size: .7rem;font-weight: bold;color: #000; }
+.hd-box-item .hd-ctx h4 { font-size: .6rem;font-weight: bold;color: #000; }
 .hd-box-item .hd-ctx p { font-size: .6rem; }
 .hd-box-item .hd-ctx p.hd-data { font-size: .6rem; position: absolute;left:0;right:0;bottom: 0;height:16px;line-height: 16px;padding-left:8px;}
 .hd-box-item .hd-ctx p.hd-data span { display: inline-block;float: left; }
