@@ -1,8 +1,9 @@
+body { background:#fff!important; }
 .l-contact { padding: 10px; }
 .l-contact h2,
 .l-contact-us h2 { font-size: 1rem;height: 50px;line-height: 50px;color: #000;font-weight: bold;text-align: center; }
-.l-contact .l-contact-box .l-logo,
-.l-contact .l-contact-box .l-contact-info { width: 50%;float: left; }
+.l-contact .l-contact-box .l-logo { width: 45%;float: left; }
+.l-contact .l-contact-box .l-contact-info { width: 55%;float: left;padding-left:10px;box-sizing:border-box; }
 .l-contact .l-contact-box .l-logo img { display: block;width: 100%;padding: 20px 0; }
 .l-contact .l-contact-box .l-contact-info p { font-size: .6rem;height: 26px;line-height: 26px; }
 
