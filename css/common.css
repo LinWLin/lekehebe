@@ -45,6 +45,7 @@ a { color: #666; text-decoration: none; }
     z-index: 99;
     background-color:  #1A1A1A;
     text-align: center;
+    z-index: 99999;
 }
 .l-nav a {
     display: block;
@@ -66,4 +67,26 @@ a { color: #666; text-decoration: none; }
     background-size: 20px 20px;
     cursor: pointer;
  }
+
+
+
+.nav-bar { 
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    height: 180px;
+    box-sizing: border-box;
+    z-index: 9999;
+    background: #1A1A1A;
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 15px 0; 
+    transform: translateY(-181px);
+    transition: transform .3s;
+}
+.nav-bar.showBox {
+    transform: translateY(0);
+}
+.nav-bar li a { font-size: .9rem; display: block; line-height: 30px; color: #fff; }
 
